@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html lang="pl-PL"> 
+  <head> 
+    <meta charset="utf-8"> 
+    <title>Formularz Bielecki</title> 
+  </head> 
+  <body bgcolor="#FFFF00">
+    <center><h1>Formularz zgłoszeniowy do teamu CS2</h1></center>
+    <form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
+      <table>
+        <tr>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Nick</b></td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Adres e-mail</b></td>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Miejscowość</b></td>
+        </tr>
+        <tr>
+          <td><input name="nick" size="22"></td>
+          <td><input name="e-mail" size="22"></td>
+          <td><input name="soon" size="22" value="SOON" readonly></td>
+        </tr>
+      </table>
+
+      <table>
+        <tr height="200">
+          <td>
+            <b>Wybierz swój przedział wiekowy:</b><br>
+            <input type="radio" name="wiek" value="12-16"> 12-16
+            <input type="radio" name="wiek" value="17-20"> 17-20
+            <input type="radio" name="wiek" value="20+"> 20+ <br><br><br>
+          
+          
+            <b>Czy grasz faceit?</b><br>
+            <select>
+              <option value="tak">Tak</option>
+              <option value="nie">Nie</option>
+              <option value="nie_wiem">Nie wiem</option>
+            </select><br><br><br>
+          
+          
+            <b>Od którego roku grasz w CS2/CS GO?</b><br>Max 4 znaki
+            <br><input name="czas" size="15" maxlength="4"><br><br><br>
+
+            <b>Które z tych stron śledzisz najbardziej?</b><br>
+            <input type="radio" name="strony" value="hltv"> hltv.org <br>
+            <input type="radio" name="strony" value="reddit"> reddit.com <br>
+            <input type="radio" name="strony" value="twitch"> Twitch.com <br><br><br>
+
+            <b>Jaką rangę posiadasz?</b><br>
+            <select>
+              <option value="ranga1">Gold</option>
+              <option value="ranga2">Master Guardian</option>
+              <option value="ranga3">Eagle</option>
+              <option value="ranga4">Supreme</option>
+              <option value="ranga5">Global Elite</option>
+            </select> <br><br><br>
+            <b>Dlaczego mamy wziąć ciebie?</b><br>
+            <textarea cols="50" rows="6">Wpisz...</textarea>
+        <td><td></td></td>
+          <td>
+            <b>Co preferujesz?</b><br>
+            <input type="checkbox" name="Preferencje" value="p"> Premier<br>
+            <input type="checkbox" name="Preferencje" value="t"> Turniejowy<br>
+            <input type="checkbox" name="Preferencje" value="s"> Skrzydłowy<br><br><br>
+            <b>W jakie gry też grasz?</b><br>
+            <input type="checkbox" name="Gry" value="c" checked> CS
+            <input type="checkbox" name="Gry" value="v"> Valo
+            <input type="checkbox" name="Gry" value="l"> LOL
+            <input type="checkbox" name="Gry" value="g"> GTA V
+            <input type="checkbox" name="Gry" value="f"> FORTNITE<br><br><br>
+            <b>Co kochasz?</b><br>
+            <input type="radio" name="zwierzeta" value="p" checked> Pieski
+            <input type="radio" name="zwierzeta" value="k"> koty
+            <input type="radio" name="zwierzeta" value="r"> Ryby
+            <input type="radio" name="zwierzeta" value="s"> Słonie<br><br><br>
+            <b>Co lubisz robić?</b><br>
+            <input type="radio" name="lubisz" value="g"> Grać
+            <input type="radio" name="lubisz" value="o"> Oglądać
+            <input type="radio" name="lubisz" value="b"> Biegać
+            <input type="radio" name="lubisz" value="s"> Spać
+            <input type="radio" name="lubisz" value="u"> Uczyć się<br><br><br>
+            <b>Co lubisz jeść?</b><br>
+            <select>
+              <option value="jedzenie1">MAKA</option>
+              <option value="jedzenie2">KFC</option>
+              <option value="jedzenie3">Pizze</option>
+              <option value="jedzenie4">Kebaba</option>
+              </select><br><br><br>
+              <b>Kod zapasowy (hasło)</b><br>
+              <input type="password" name="haslo"> <br><br><br><br>
+              <a href="index.html" target="_blank">
+                <button type="button" style="height:50px;width:200px">Powrót do strony głównej</button>
+            </a>
+            <br><br>
+            
+            <a href="https://www.reddit.com/" target="_blank">
+                <button type="button" style="height:50px;width:200px">Pochwal się na Reddit</button>
+            </a>
+            <br><br><br>
+                          
+          </td>
+        </tr>
+
+
+        <tr height="100">
+          <td></td>
+          <td><input type="reset" value="Reset" style="height:80px; width:150px"></td>
+          
+          <td><input type="submit" value="Wyślij formularz" style="height:80px; width:150px"></td>
+        </tr>
+      </table>
+
+      <br>
+      <a href="index.html">Wróć</a> 
+    </form>
+  </body> 
+</html>
